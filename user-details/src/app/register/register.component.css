@@ -1,0 +1,37 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+small{
+    display: block;
+}

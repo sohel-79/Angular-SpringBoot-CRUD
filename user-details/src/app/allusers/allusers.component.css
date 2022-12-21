@@ -1,0 +1,58 @@
+th{
+    background-color: royalblue;
+    width: 200px;
+   
+}
+td{
+    width: 200px;
+    text-align: center;
+   
+}
+table {
+   
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+table, th {
+    border: 1px solid;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+h1{
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.btn-div{
+    margin-top: 20px;
+}
+
+.btn-table{
+    width: 100px;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.del{
+    background-color: red;
+}

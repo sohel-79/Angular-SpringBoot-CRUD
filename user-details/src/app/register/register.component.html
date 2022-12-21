@@ -1,0 +1,31 @@
+<div class="container">
+    <div>
+        <h1>Fill the form to register</h1>
+
+        <a routerLink="/home"> <button class="btn"> Home </button></a>
+    </div>
+    <div class="form-div">
+        <form #myForm="ngForm">
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
+            <br>
+            <label for="Age">Age</label>
+            <br>
+            <input type="text" [(ngModel)]="user.age" name="age" required>
+            <br>
+            <label for="Pan">Pan</label>
+            <br>
+            <input type="text" [(ngModel)]="user.pan" name="pan" required>
+            <br>
+            <label for="Aadhar">Aadhar</label>
+            <br>
+            <input type="number" [(ngModel)]="user.aadhar" name="aadhar" required>
+            <br>
+            <br>
+            <button type="submit" class="btn" (click)="submit()" [disabled]="!myForm.valid">Submit</button>
+        </form>
+    </div>
+
+
+</div>
